@@ -1,0 +1,11 @@
+kind: pod
+apiVersion: v1
+metadata:
+  name: labels
+  labels:
+    course: devops
+    trainer: sivakumar
+spec:
+  containers:
+  - name: nginx
+    image: nginx    
